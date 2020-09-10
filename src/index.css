@@ -52,7 +52,6 @@ code {
 .inputValue input:focus{
 	text-align: left;
     text-indent: 10px;
-    transition: .1s;
     color: #dfe6e9;
 }
 
@@ -62,7 +61,6 @@ code {
 
 .inputValue input:focus::placeholder{
     color: transparent;
-    transition: .1s;
 }
 
 .fullName{
