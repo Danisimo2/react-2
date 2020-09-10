@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Contact from "./contact.js";
-
 const contacts = [
   {
     firstName: "Барней",
@@ -74,6 +73,7 @@ class Contacts extends Component {
   render() {
     return (
       <div className="fullInfo">
+        <h2>Contacts</h2>
         <div className="inputValue">
           <input
             type="text"
@@ -84,7 +84,7 @@ class Contacts extends Component {
         </div>
         <div className="allContacts">
           {this.state.contacts.map((contact, i) => (
-            <Contact
+            <Contact 
               firstName={contact.firstName}
               lastName={contact.lastName}
               phone={contact.phone}
