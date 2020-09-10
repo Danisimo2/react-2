@@ -1,5 +1,6 @@
-body {
+* {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,64 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.fullInfo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	width: 300px;
+	height: 600px;
+	border-radius: 40px;
+	background: #2d3436;
+}
+
+.userInfo{  
+ 	margin: 0 10px 2px 10px;
+ 	border-bottom: 1px solid #636e72;
+ 	padding-bottom: 5px;
+ 	color: #dfe6e9;
+}
+
+.inputValue{
+	margin-bottom: 20px;
+	margin-left: 10px;
+	padding-top: 60px;
+}
+
+.inputValue input{
+	background:  #636e72;
+	text-align: center;
+	border-radius: 50px;
+	width: 280px;
+	height: 25px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+}
+
+.inputValue input:focus{
+	text-align: left;
+    text-indent: 10px;
+    transition: .1s;
+    color: #dfe6e9;
+}
+
+.inputValue input::placeholder{
+	color: #dfe6e9;
+}
+
+.inputValue input:focus::placeholder{
+    color: transparent;
+    transition: .1s;
+}
+
+.fullName{
+	display: flex;
+}
+.lastName{
+	font-weight: bold;
+	padding-left: 5px;
 }
