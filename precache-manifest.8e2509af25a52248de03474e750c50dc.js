@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "adac88d7b97f84df1fede2d8cb90ca05",
+    "revision": "827d8cc1f19c080fac80ffcd2084e617",
     "url": "/react-2/index.html"
   },
   {
-    "revision": "68153e13f86ba32713b4",
+    "revision": "3d4cb3305cd4549af2e2",
     "url": "/react-2/static/css/main.68922846.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-2/static/js/2.637f33dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68153e13f86ba32713b4",
-    "url": "/react-2/static/js/main.e626489c.chunk.js"
+    "revision": "3d4cb3305cd4549af2e2",
+    "url": "/react-2/static/js/main.23b87201.chunk.js"
   },
   {
     "revision": "c0880be4ae898cbe81bc",
     "url": "/react-2/static/js/runtime-main.787bc5fb.js"
   },
   {
-    "revision": "1584dd85dccc6b65020f34b3a47aad60",
-    "url": "/react-2/static/media/user.1584dd85.svg"
+    "revision": "c05f2fa37a7d7705106322c6fa1aab54",
+    "url": "/react-2/static/media/user.c05f2fa3.svg"
   }
 ]);
